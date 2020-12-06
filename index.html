@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/Code1.css" type="text/css">
+<style type="text/css">
+	p.normal  {font-variant: normal}
+	p.samll {font-variant: small-caps}
+	
+	</style>
+<script>
+function changehtml(){
+	document.title="改变网页背景和标题"；
+	document.bgColor="RED";
+
+}
+
+
+</script>
+</head>
+
+<body>
+	<h1>woaixuexi</h1>
+	<p>wozuiaixuexi</p>
+	<p class="normal">This is a paragraph.</p>
+	<p class="samll">this is a paragraph.</p>
+	<h4><a href="http://www.baidu.com">woaixuexi</a></h4>
+	<h4>wozuiaixuexile</h4>
+<input type="checkbox" name="basket" id="basketball">   
+
+<input type="checkbox" name="football" id="football">   
+<label for="football">足球</label>&nbsp;&nbsp;&nbsp;<label for="basketball">篮球</label>
+<br/>	
+<form action="demo_form.asp" method="get" id="genderform">
+	<label>Male
+		<input type="radio" name="sex" id="male" value="male" />
+	</label>
+	<br />
+	<label>Female
+		<input type="radio" name="sex" id="female" value="female"  />
+	</label>
+  <input type="submit" value="提交" />
+</form>
+
+<p>用于第一个单选按钮的 label 位于 form 元素之外，但仍然是表单的一部分。请尝试点击这个 label，可以切换到 radio 控件。</p>
+
+<label for="male" form="nameform">Male</label>
+<p></p>
+<input name="btnChange" type="button" id="btnChange" onClick="changehtml()
+
+" value="改变网页背景和标题">
+<br>
+</body>
+</html>
